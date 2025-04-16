@@ -1,0 +1,485 @@
+{
+  "name": "Sapphire Known Tokens",
+  "version": { "major": 0, "minor": 0, "patch": 0 },
+  "timestamp": "2024-05-03T18:01:16.993Z",
+  "tokens": [
+    {
+      "symbol": "IX",
+      "name": "illumineX Token",
+      "chainId": 23294,
+      "address": "0x08Fe02Da45720f754e6FCA338eC1286e860d2d2f",
+      "decimals": 18,
+      "extensions": {},
+      "logoURI": "https://legacy.illuminex.xyz/images/token.svg"
+    },
+    {
+      "symbol": "ROSE",
+      "name": "ROSE",
+      "chainId": 23294,
+      "address": "0x8Bc2B030b299964eEfb5e1e0b36991352E56D2D3",
+      "decimals": 18,
+      "extensions": {
+        "isChainNative": true,
+        "volumePreset": [200, 1000, 5000, 10000, 100000],
+        "accentColor": "#0404e4"
+      },
+      "logoURI": "https://legacy.illuminex.xyz/images/rose-logo.png",
+      "tags": ["default"]
+    },
+    {
+      "symbol": "ROSY",
+      "name": "Rosy",
+      "chainId": 23294,
+      "address": "0x6665a6Cae3F52959f0f653E3D04270D54e6f13d8",
+      "decimals": 18,
+      "extensions": { "rawRouterOnly": true, "accentColor": "#b85959" },
+      "logoURI": "https://rosytoken.com/rosy-filled.png"
+    },
+    {
+      "symbol": "BNB",
+      "name": "Binance Coin",
+      "chainId": 56,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 0.5, 1.5, 3.5, 10],
+        "isChainNative": true,
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0x4CCc8Da0AFbD7195287bc7c553f299c5aB74a013"
+          }
+        },
+        "accentColor": "#937200"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/bnbt/info/logo.png"
+    },
+    {
+      "symbol": "bscBNB",
+      "name": "BSC BNB",
+      "chainId": 23294,
+      "address": "0x4CCc8Da0AFbD7195287bc7c553f299c5aB74a013",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 0.5, 1.5, 3.5, 10],
+        "bridgeInfo": {
+          "56": { "tokenAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c" }
+        },
+        "accentColor": "#937200"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/bnbt/info/logo.png"
+    },
+    {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "chainId": 56,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0x089e409616246f9f731579A684502cc8784c173b"
+          }
+        },
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "bscUSDT",
+      "name": "BSC USDT",
+      "chainId": 23294,
+      "address": "0x089e409616246f9f731579A684502cc8784c173b",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "56": { "tokenAddress": "0x55d398326f99059fF775485246999027B3197955" }
+        },
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "chainId": 1,
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "isChainNative": true,
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0x865483BAFEd87b23cBF0fE721d4533B4Cda927B6"
+          }
+        },
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "ethETH",
+      "name": "Ethereum ETH",
+      "chainId": 23294,
+      "address": "0x865483BAFEd87b23cBF0fE721d4533B4Cda927B6",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" }
+        },
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "USDC",
+      "name": "Circle USD",
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "decimals": 6,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0xf170d8b2e7280A495aF181aDE4c18f67bEfD9941"
+          }
+        },
+        "accentColor": "#2474cc"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    },
+    {
+      "symbol": "ethUSDC",
+      "name": "Ethereum USDC",
+      "chainId": 23294,
+      "address": "0xf170d8b2e7280A495aF181aDE4c18f67bEfD9941",
+      "decimals": 6,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" }
+        },
+        "accentColor": "#2474cc"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    },
+    {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "decimals": 6,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "requiresAllowanceReset": true,
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0xeC240a739D04188D83E9125CECC2ea88fABd9B08"
+          }
+        },
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "ethUSDT",
+      "name": "Ethereum USDT",
+      "chainId": 23294,
+      "address": "0xeC240a739D04188D83E9125CECC2ea88fABd9B08",
+      "decimals": 6,
+      "extensions": {
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7" }
+        },
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "chainId": 42161,
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "isChainNative": true,
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0x391a18914313D4aD51e50dd994CF82c79ec4904f"
+          }
+        },
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "arbETH",
+      "name": "Arbitrum ETH",
+      "chainId": 23294,
+      "address": "0x391a18914313D4aD51e50dd994CF82c79ec4904f",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "bridgeInfo": {
+          "42161": {
+            "tokenAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+          }
+        },
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "MATIC",
+      "name": "Matic",
+      "chainId": 137,
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [30, 200, 600, 1300, 13000],
+        "isChainNative": true,
+        "bridgeInfo": {
+          "23294": {
+            "tokenAddress": "0xE9E3a177b1439A3a350463f6CE6Cb3c2435AF3ee"
+          }
+        },
+        "accentColor": "#8445e4"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png"
+    },
+    {
+      "symbol": "polygonMATIC",
+      "name": "Polygon MATIC",
+      "chainId": 23294,
+      "address": "0xE9E3a177b1439A3a350463f6CE6Cb3c2435AF3ee",
+      "decimals": 18,
+      "extensions": {
+        "volumePreset": [30, 200, 600, 1300, 13000],
+        "bridgeInfo": {
+          "137": {
+            "tokenAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+          }
+        },
+        "accentColor": "#8445e4"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png"
+    },
+    {
+      "symbol": "OCEAN",
+      "name": "Ocean Token",
+      "chainId": 23294,
+      "address": "0x39d22B78A7651A76Ffbde2aaAB5FD92666Aca520",
+      "decimals": 18,
+      "extensions": { "accentColor": "#767676" },
+      "logoURI": "https://legacy.illuminex.xyz/images/ocean-logo.png"
+    },
+    {
+      "symbol": "pIX",
+      "name": "pillumineX Token",
+      "chainId": 23294,
+      "address": "0xd7f2507CAFe0F04f5C1939999e9bE4E1B36dC219",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x08Fe02Da45720f754e6FCA338eC1286e860d2d2f"
+        },
+        "isChainNative": false
+      },
+      "logoURI": "https://legacy.illuminex.xyz/images/token.svg"
+    },
+    {
+      "symbol": "pwROSE",
+      "name": "pWrapped ROSE",
+      "chainId": 23294,
+      "address": "0x1Ffd8A218FDc5B38210D64CBB45F40DC55A4e019",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x8Bc2B030b299964eEfb5e1e0b36991352E56D2D3"
+        },
+        "isChainNative": false,
+        "volumePreset": [200, 1000, 5000, 10000, 100000],
+        "accentColor": "#0404e4"
+      },
+      "logoURI": "https://legacy.illuminex.xyz/images/rose-logo.png"
+    },
+    {
+      "symbol": "pROSY",
+      "name": "pRosy",
+      "chainId": 23294,
+      "address": "0x0AA63018433C69AB4DD46565Ed2bbE0445D0ad2a",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x6665a6Cae3F52959f0f653E3D04270D54e6f13d8"
+        },
+        "rawRouterOnly": true,
+        "isChainNative": false,
+        "accentColor": "#b85959"
+      },
+      "logoURI": "https://rosytoken.com/rosy-filled.png"
+    },
+    {
+      "symbol": "pbscBNB",
+      "name": "pBSC BNB",
+      "chainId": 23294,
+      "address": "0xbf95fc128023b4Db26bbE314A159c14467513f64",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x4CCc8Da0AFbD7195287bc7c553f299c5aB74a013"
+        },
+        "volumePreset": [0.1, 0.5, 1.5, 3.5, 10],
+        "bridgeInfo": {
+          "56": { "tokenAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c" }
+        },
+        "isChainNative": false,
+        "accentColor": "#937200"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/bnbt/info/logo.png"
+    },
+    {
+      "symbol": "pbscUSDT",
+      "name": "pBSC USDT",
+      "chainId": 23294,
+      "address": "0x3e4079aD76c83760e22B5c0105670eBAB88B8d0e",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x089e409616246f9f731579A684502cc8784c173b"
+        },
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "56": { "tokenAddress": "0x55d398326f99059fF775485246999027B3197955" }
+        },
+        "isChainNative": false,
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "pethETH",
+      "name": "pEthereum ETH",
+      "chainId": 23294,
+      "address": "0x4C788dbcDf233744fDFcD1Fbf1e8B37E2FE8B102",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x865483BAFEd87b23cBF0fE721d4533B4Cda927B6"
+        },
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" }
+        },
+        "isChainNative": false,
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "pethUSDC",
+      "name": "pEthereum USDC",
+      "chainId": 23294,
+      "address": "0x013E54bee29813bd786b24F9CB08f47c4b75955C",
+      "decimals": 6,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0xf170d8b2e7280A495aF181aDE4c18f67bEfD9941"
+        },
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" }
+        },
+        "isChainNative": false,
+        "accentColor": "#2474cc"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    },
+    {
+      "symbol": "pethUSDT",
+      "name": "pEthereum USDT",
+      "chainId": 23294,
+      "address": "0x9Ca066f00e55b90623eFe323feB2A649686538b6",
+      "decimals": 6,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0xeC240a739D04188D83E9125CECC2ea88fABd9B08"
+        },
+        "volumePreset": [25, 150, 500, 1000, 10000],
+        "bridgeInfo": {
+          "1": { "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7" }
+        },
+        "isChainNative": false,
+        "accentColor": "#07875f"
+      },
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "symbol": "parbETH",
+      "name": "pArbitrum ETH",
+      "chainId": 23294,
+      "address": "0xab212f17594014E5adE87efF0f977cC6d478FB18",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x391a18914313D4aD51e50dd994CF82c79ec4904f"
+        },
+        "volumePreset": [0.1, 1, 2, 5, 10],
+        "bridgeInfo": {
+          "42161": {
+            "tokenAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+          }
+        },
+        "isChainNative": false,
+        "accentColor": "#76767e"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "symbol": "ppolygonMATIC",
+      "name": "pPolygon MATIC",
+      "chainId": 23294,
+      "address": "0x1c4d39340e4c16f1F6E18891B927332604894231",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0xE9E3a177b1439A3a350463f6CE6Cb3c2435AF3ee"
+        },
+        "volumePreset": [30, 200, 600, 1300, 13000],
+        "bridgeInfo": {
+          "137": {
+            "tokenAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+          }
+        },
+        "isChainNative": false,
+        "accentColor": "#8445e4"
+      },
+      "logoURI": "https://assets-cdn.trustwallet.com/blockchains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png"
+    },
+    {
+      "symbol": "pOCEAN",
+      "name": "pOcean Token",
+      "chainId": 23294,
+      "address": "0x8eda18AA8e4dAC8FdE1D4c6873160E52855716B8",
+      "decimals": 18,
+      "extensions": {
+        "illuminexWrapper": {
+          "originalTokenAddress": "0x39d22B78A7651A76Ffbde2aaAB5FD92666Aca520"
+        },
+        "isChainNative": false,
+        "accentColor": "#767676"
+      },
+      "logoURI": "https://legacy.illuminex.xyz/images/ocean-logo.png"
+    }
+  ],
+  "tags": {
+    "default": {
+      "name": "Default",
+      "description": "Tokens should be selected as default ones in cases where people expect predefined token"
+    }
+  }
+}

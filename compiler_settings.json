@@ -1,0 +1,19 @@
+{
+  "language": "Solidity",
+  "compiler": "solc",
+  "compilerVersion": "0.8.17+commit.8df45f5f",
+  "compilerSettings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "libraries": {},
+    "optimizer": {
+      "runs": 300,
+      "enabled": true
+    },
+    "evmVersion": "london",
+    "remappings": []
+  },
+  "name": "IXToken",
+  "fullyQualifiedName": "contracts/econ/IXToken.sol:IXToken"
+}
